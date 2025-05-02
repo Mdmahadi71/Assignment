@@ -6,6 +6,7 @@ import Foter from './Components/Foter'
 import Frequently from './Components/Frequently'
 import Navbar from './Components/Navbar'
 import Ready from './Components/Ready'
+import Suggestion from './Components/Suggestion'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <>
     <Navbar/>
     <About/>
+    <Suggestion/>
     <Courses/>
     <Frequently/>
     <Ready/>

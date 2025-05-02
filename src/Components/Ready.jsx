@@ -4,7 +4,7 @@ const Ready = () => {
   return (
     <div className=' my-[30px]'>
       <div className=" container">
-        <div className=" bg-[#004FCE] py-[80px] rounded-[20px]">
+        <div className=" bg-[#004FCE] py-[80px] lg:px-0 px-2 rounded-[20px]">
             <h3 className=' font-marn-sans font-medium text-[36px] text-[#FFFF] text-center'>Ready to Hire Smarter?</h3>
             <h3 className=' font-marn-sans font-normal text-[18px] text-[#B9BDC7] text-center'>Unlock Exclusive Insights Subscribe to Our Newsletter</h3>
            <div className="flex justify-center my-3">

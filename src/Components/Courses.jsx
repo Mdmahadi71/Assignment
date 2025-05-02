@@ -4,23 +4,23 @@ import imageTwo from '../assets/imageTwo.png'
 
 const Courses = () => {
   return (
-    <div className=' py-[50px]'>
+    <div className=' my-[110px]'>
       <div className=" container">
         <h2 className=' font-semibold font-marn-sans text-[48px] text-[#262626] '>Our Courses</h2>
-        <div className=" flex justify-between items-center">
-           <div className=" w-[70%]">
-           <h4>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.</h4>
+        <div className=" lg:flex justify-between items-center">
+           <div className=" lg:w-[70%]">
+           <h4 className=' font-marn-sans font-light text-[18px] text-[#59595A] lg:my-0 my-2'>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.</h4>
            </div>
             <button className=' py-[13px] px-[17px] border-[1px] border-[#002868] rounded-[10px] bg-[#002868] text-[18px] font-marn-sans font-normal text-[#FFFF] '>View All</button>
         </div>
-        <div className=" flex justify-between items-center gap-x-3 my-3">
-            <div className="w-[50%]">
-                <div className=" bg-[#F0F0F0] p-[40px] rounded-[10px]">
+        <div className=" lg:flex justify-between items-center gap-x-3 my-3">
+            <div className="lg:w-[50%]">
+                <div className=" bg-[#F0F0F0] p-[40px] rounded-[10px] lg:my-0 my-2">
                     <img src={imageTwo} alt="" />
                     <div className=" flex justify-between items-center my-3" >
                         <div className=" flex items-center gap-x-4">
-                            <h2 className=' border-[1px] border-[#FFFF] bg-white p-[8px] rounded-[4px] font-marn-sans font-light text-[18px] text-[#4C4C4D] '>4 Weeks</h2>
-                            <h2 className=' border-[1px] border-[#FFFF] bg-white p-[8px] rounded-[4px] font-marn-sans font-light text-[18px] text-[#4C4C4D] '>4 Weeks</h2>
+                            <h2 className=' border-[1px] border-[#FFFF] bg-white p-[8px] rounded-[4px] font-marn-sans font-light text-[18px] lg:text-start text-center text-[#4C4C4D] '>4 Weeks</h2>
+                            <h2 className=' border-[1px] border-[#FFFF] bg-white p-[8px] rounded-[4px] font-marn-sans font-light text-[18px] lg:text-start text-center text-[#4C4C4D] '>4 Weeks</h2>
                         </div>
                         <div className="">
                             <p className=' font-marn-sans font-medium text-[20px] text-[#262626]'>By John Smith</p>
@@ -34,13 +34,13 @@ const Courses = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[50%]">
+            <div className="lg:w-[50%]">
                 <div className=" bg-[#F0F0F0] p-[40px] rounded-[10px]">
                     <img src={imageOne} alt="" />
                     <div className=" flex justify-between items-center my-3" >
                         <div className=" flex items-center gap-x-4">
-                            <h2 className=' border-[1px] border-[#FFFF] bg-white p-[8px] rounded-[4px] font-marn-sans font-light text-[18px] text-[#4C4C4D] '>4 Weeks</h2>
-                            <h2 className=' border-[1px] border-[#FFFF] bg-white p-[8px] rounded-[4px] font-marn-sans font-light text-[18px] text-[#4C4C4D] '>4 Weeks</h2>
+                            <h2 className=' border-[1px] border-[#FFFF] bg-white p-[8px] rounded-[4px] font-marn-sans font-light text-[18px] lg:text-start text-center text-[#4C4C4D] '>4 Weeks</h2>
+                            <h2 className=' border-[1px] border-[#FFFF] bg-white p-[8px] rounded-[4px] font-marn-sans font-light text-[18px] lg:text-start text-center text-[#4C4C4D] '>4 Weeks</h2>
                         </div>
                         <div className="">
                             <p className=' font-marn-sans font-medium text-[20px] text-[#262626]'>By John Smith</p>

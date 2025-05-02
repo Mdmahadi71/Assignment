@@ -8,13 +8,13 @@ const Foter = () => {
   return (
     <div>
       <div className=" container">
-         <div className=" flex justify-between items-center gap-x-7">
-            <div className="w-[40%]">
+         <div className=" lg:flex justify-between items-center gap-x-7">
+            <div className="lg:w-[40%]">
                 <div className="">
-                    <img src={foterLogo} alt="" />
+                    <img src={foterLogo} className=' flex lg:justify-start justify-center my-5' alt="" />
                     <div className="">
-                        <p className=' font-marn-sans font-light text-[14px] text-[#335386]'>SalesRank.AI offers a comprehensive suite of AI-powered solutions to help you find expert sales professionals who can elevate every aspect of your business. From performance rankings and skill verification to industry benchmarking and real-time analytics, we provide the insights and tools to optimize your sales strategy and drive growth.</p>
-                        <div className=" flex gap-x-5 items-center my-3">
+                        <p className=' font-marn-sans font-light text-[14px] text-[#335386] lg:text-start text-center'>SalesRank.AI offers a comprehensive suite of AI-powered solutions to help you find expert sales professionals who can elevate every aspect of your business. From performance rankings and skill verification to industry benchmarking and real-time analytics, we provide the insights and tools to optimize your sales strategy and drive growth.</p>
+                        <div className=" flex lg:gap-x-5 justify-between items-center lg:my-3 my-5">
                             <FaFacebookSquare/>
                             <FaTwitter />
                             <FaLinkedin/>
@@ -23,8 +23,8 @@ const Foter = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[50%]">
-                <div className=" flex justify-between gap-x-7">
+            <div className="lg:w-[50%]">
+                <div className=" flex justify-between lg:gap-x-7 gap-3 ">
                     <div className="">
                         <ul>
                             <li><a href="" className=' font-marn-sans font-medium text-[18px] text-[#001C4A] my-[15px] gap-x-2'>Navigation</a></li>

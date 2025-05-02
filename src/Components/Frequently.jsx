@@ -35,11 +35,11 @@ const Frequently = () => {
     <div className=" container">
     <div  className="my-12 px-4 lg:px-0">
       <div className="">
-        <div className=' flex justify-between gap-x-4'>
-          <h2 className=" font-marn-sans font-normal text-[20px] text-[#001C4A]">
+        <div className=' lg:flex justify-between gap-x-4'>
+          <h2 className=" font-marn-sans font-normal text-[20px] lg:text-start text-center text-[#001C4A]">
             Frequently asked questions
           </h2>
-            <h3 className=' font-marn-sans font-semibold text-[40px] text-[#111111]'>Constant collaboration is how we roll. Let's see if we are a good fit.</h3>
+            <h3 className=' font-marn-sans font-semibold lg:text-[40px] text-[34px] lg:text-start text-center lg:my-0 my-2 text-[#111111]'>Constant collaboration is how we roll. Let's see if we are a good fit.</h3>
         </div>
 
         <div className=" ">
@@ -58,7 +58,7 @@ const Frequently = () => {
                 >
                   {faq.number}
                 </a>
-                <h2 className="text-[40px] md:text-[24px] font-medium text-black m-0">
+                <h2 className="text-[30px] md:text-[24px] font-medium text-black m-0">
                   {faq.question}
                 </h2>
               </div>
@@ -76,10 +76,10 @@ const Frequently = () => {
     </div>
     <div className="">
         <div className="">
-            <h6 className=' font-marn-sans font-medium text-[30px] text-[#010205]'>“ They thoroughly analyze our industry and target audience, allowing them to develop customized campaigns that effectively reach and engage our customers. Their creative ideas and cutting-edge techniques have helped us stay ahead of the competition.”</h6>
+            <h6 className=' font-marn-sans font-medium text-[30px] lg:text-start text-center text-[#010205] lg:my-0 my-2'>“ They thoroughly analyze our industry and target audience, allowing them to develop customized campaigns that effectively reach and engage our customers. Their creative ideas and cutting-edge techniques have helped us stay ahead of the competition.”</h6>
         </div>
-        <div className=" flex justify-between items-center">
-            <div className="w-[50%]">
+        <div className=" lg:flex justify-between items-center">
+            <div className="lg:w-[50%]">
                 <div className=" flex items-center gap-x-4">
                     <div className=" bg-[#878C91] rounded-[50px] w-[100px] h-[100px]">
                         <h5></h5>
@@ -90,7 +90,7 @@ const Frequently = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[40%]">
+            <div className="lg:w-[40%] my-2">
                 <div className=" flex justify-between items-center">
                     <div className=" border-[1px] border-[#00245F] py-[8px] px-[12px] rounded-[4px] hover:bg-[#00245F] hover:text-[#FFFF] duration-200">
                         <samp><FaArrowLeft/></samp>
