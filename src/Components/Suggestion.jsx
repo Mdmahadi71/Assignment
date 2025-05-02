@@ -10,15 +10,15 @@ import { IoMdListBox } from "react-icons/io";
 
 const Suggestion = () => {
   return (
-    <div className=' bg-[#002868]'>
+    <div className=' bg-[#002868] my-[100px]'>
       <div className=" container">
         <div className="">
             <h4 className=' font-marn-sans font-normal text-[24px] text-[#FCE38A]'>Live Ai Coach</h4>
             <h2 className=' font-marn-sans font-normal text-[40px] text-[#FFFF]'>Take a Suggestion Coaching </h2>
         </div>
-        <div className=" flex justify-between items-center gap-x-4">
-            <div className="w-[55%]">
-                <div className=" bg-[#CDCDCD]">
+        <div className=" lg:flex justify-between items-center gap-x-4">
+            <div className="lg:w-[55%]">
+                <div className=" bg-[#CDCDCD] my-[20px]">
                     <div className=" bg-white py-3 pl-[20px]  rounded-[10px]">
                     <h4 className=' font-marn-sans font-medium text-[18px] text-[#1B1B1B]'>AI Sales Coach</h4>
                     </div>
@@ -28,7 +28,7 @@ const Suggestion = () => {
                             <h3 className=' text-[16px] text-[#181818] font-marn-sans font-normal bg-white rounded-[10px] p-[10px]'>Hello! I'm your AI sales coach. How can I help you improve your sales performance today?</h3>
                         </div>
                     </div>
-                    <div className=" flex justify-between items-center gap-x-3">
+                    <div className=" lg:flex justify-between items-center gap-x-3">
                         <div className="  ">
                             <h5 className=' font-marn-sans font-light text-[14px] text-[#002868] bg-[#00286814] p-[5px] rounded-[4px] text-center'>How do I handle objections?</h5>
                         </div>
@@ -50,7 +50,7 @@ const Suggestion = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[15%]">
+            <div className="lg:w-[15%]">
                 <div className=" bg-white p-[30px] rounded-[10px]">
                     <CiRepeat className=' flex justify-center text-[25px]  my-[10px]'/>
                     <AiFillLike className=' flex justify-center text-[25px]  my-[10px]' />
@@ -59,7 +59,7 @@ const Suggestion = () => {
                     <GiSpeaker className=' flex justify-center text-[25px]  my-[10px]'/>
                 </div>
             </div>
-            <div className="w-[40%]">
+            <div className="lg:w-[40%]">
                       <div className="">
 
                           <div className="">
